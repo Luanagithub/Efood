@@ -8,6 +8,7 @@ export default defineConfig({
     rollupOptions: {
       external: ['styled-components'],
       external: ['react-router-dom'],
+      external: ['react-icons'],
     },
   },
 });
