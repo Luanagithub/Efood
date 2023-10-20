@@ -4,11 +4,9 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  build: {
+    build: {
     rollupOptions: {
-      external: ['styled-components'],
-      external: ['react-router-dom'],
-      external: ['react-icons'],
+      external: ['react-router-dom', 'react-icons', 'styled-components'],
     },
   },
-});
+};
