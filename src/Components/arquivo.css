@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta&family=Roboto:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta&family=Roboto:wght@300&display=swap');
+
+.modal_style{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    background-color: pink;
+    color: black;
+    text-align: center;
+    
+}
